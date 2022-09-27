@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>davaleba 9</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="h2-div">
+            <h2 class="title">შეუკვეთე პროდუქტი დღესვე</h2>
+        </div>
+        <form class="form1" action="submit.html" method="post">
+            <input type="text" class="firstname" id="firstname" name="firstname" placeholder="სახელი" required>
+            <input type="text" class="lastname" id="lastname" name="lastname" placeholder="გვარი" required>
+            <input type="tel"  class="tel" id="tel" name="tel" placeholder="ტელეფინის ნომერი">
+            <label class="similar-p" for="textarea">გთხოვთ მიუთითოთ ზუსტი მისამართი</label>
+            <textarea class="textarea" name="textarea" id="textarea" ></textarea>
+            <p class="paragraph-1">აირჩიეთ გადახდის მეთოდი</p>
+            <div class="input-div">
+                <input class="input-card" type="radio" id="card" value="card" name="pay" required>
+                <label class="card" for="">ბარათით გადახდა</label>
+                <input class="input-cash" type="radio" id="cash" value="cash" name="pay" required>
+                <label class="cash" for="">ქეშით გადახდა</label>
+            </div>  
+            
+            <input  type="submit"  value="შეკვეთის გაფორმება" class="submit">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
